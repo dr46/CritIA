@@ -1,14 +1,14 @@
 ---
 title: 'CritIA: La inteligencia artificial y su impacto sobre la reflexión crítica en educación superior'
 output:
-  html_document: default
   word_document: default
   pdf_document: default
+  html_document: default
 ---
 
 Este proyecto ha sido desarrollado en sincronía con el proyecto de la [OSF](https://osf.io) (Open Science Framework) alojado en la siguiente web: <https://osf.io/ca6yh> y tiene como objetivo proporcionar información y código fuente utilizado para el desarrollo del capítulo titulado "La inteligencia artificial y su impacto sobre la reflexión crítica en educación superior".
 
-Este proyecto contiene varias carpetas. La carpeta *dat* contiene los archivos de datos, la carpetat *stx* contiene archivos de código y la carpeta *fig* contiene figuras. En las siguientes seciones se clarifica la descripción y el contenido de cada carpeta.
+Este proyecto contiene varias carpetas. La carpeta *dat* contiene los archivos de datos, la carpetat *stx* contiene archivos de código, la carpeta *tbl* contiene tablas de resultados y la carpeta *fig* contiene figuras. En las siguientes seciones se clarifica la descripción y el contenido de cada carpeta.
 
 # Carpeta *dat*
 
@@ -30,11 +30,26 @@ Este archivo es el documento maestro del proyecto. Desde este archivo se invocan
 
 Este archivo estima la correlación que se establece entre la posición que ocupa cada universidad en el ranking y si apela o no al pensamiento crítico.También genera el gráfico correspondiente que visibiliza esta relación. Este gráfico aparece almacenado en la carpeta *fig* como *apela.pdf*.
 
+## 02_at.R
+
+Este archivo lleva a cabo ciertos análisis del texto que circunda el concepto de pensamiento crítico. 
+
 # Carpeta *fig*
 
 ## apela.pdf
 
 Este gráfico representa la posición que ocupan las universidades en el ranking en función de si apelan o no al pensamiento crítico en su misión, visión o plan estratégico.
+
+## wc.pdf
+
+Este gráfico representa la nube de términos que se relacionan con el pensamiento crítico teniendo en cuenta las misiones, visiones y los planes estratégicos de las universidades públicas españolas.
+
+# Carpeta *tbl*
+
+## topw.txt
+
+Es una tabla de frecuencias en el que aparecen las palabras más frecuentes relacionadas con el contexto del aprendizaje o razonamiento crítico. 
+
 
 
 # Referencias
