@@ -15,3 +15,8 @@ source("stx/02_at.R", encoding = "UTF-8")
 # que aparecen relacionados con el pensamiento crítico. Se obtiene a partir
 # del archivo de código 02_at.R anteriormente presentado.
 read.table("tbl/topw.txt")
+
+# Este archivo estima el coeficiente de correlación que se establece entre la 
+# posición en el ranking de universidades y el número de caracteres dedicados
+# al contexto en el que se apela al pensamiento crítico.
+source("stx/03_caract.R", echo = T, encoding = "UTF-8")

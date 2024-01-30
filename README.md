@@ -1,9 +1,9 @@
 ---
 title: 'CritIA: La inteligencia artificial y su impacto sobre la reflexión crítica en educación superior'
 output:
+  html_document: default
   word_document: default
   pdf_document: default
-  html_document: default
 ---
 
 Este proyecto ha sido desarrollado en sincronía con el proyecto de la [OSF](https://osf.io) (Open Science Framework) alojado en la siguiente web: <https://osf.io/ca6yh> y tiene como objetivo proporcionar información y código fuente utilizado para el desarrollo del capítulo titulado "La inteligencia artificial y su impacto sobre la reflexión crítica en educación superior".
@@ -20,6 +20,10 @@ Este archivo contiene el ranking de las universidades españolas que aparece ref
 
 Este archivo contiene dos vectores. Uno de ellos (*apela*) se refiere a si la universidad contempla el pensamiento crítico (con el valor 1) o no (con el valor 0) en su misión, visión o plan estratégico como algo crítico o relevante. El otro vector (*rank*) indica la posición de la universidad en el ranking de [Buela-Casal et al (2019)](https://doi.org/10.7334/psicothema2019.238). 
 
+## caracter.csv
+
+Este archivo contiene dos variables: *cse*: que indica el número de caracteres con espacios que representa el contexto verbal en el que se apela al pensamiento crítico en las misiones, visiones y planes estratégicos de las universidades españolas, y *rank*: que indica la posición que ocupa la universidad estudiada en el ranking  elaborado por [Buela-Casal et al (2019)](https://doi.org/10.7334/psicothema2019.238).
+
 # Carpeta *stx*
 
 ## critia_master.R
@@ -33,6 +37,10 @@ Este archivo estima la correlación que se establece entre la posición que ocup
 ## 02_at.R
 
 Este archivo lleva a cabo ciertos análisis del texto que circunda el concepto de pensamiento crítico. 
+
+## 03_caract.R
+
+Este archivo estima la correlación que se establece entre la posición que ocupa cada universidad en el ranking elaborado por [Buela-Casal et al (2019)](https://doi.org/10.7334/psicothema2019.238) y el número de caracteres que se dedican al contexto en el que aparecen los conceptos de reflexión o pensamiento crítico. 
 
 # Carpeta *fig*
 
