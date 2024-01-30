@@ -1,11 +1,11 @@
 "Var1" "Freq"
 "1" "desarrollo" 18
-"2" "social" 13
-"3" "formación" 13
-"4" "transmisión" 11
-"5" "universidad" 11
-"6" "cultura" 10
-"7" "creación" 10
-"8" "pensamiento" 9
-"9" "sociedad" 9
-"10" "espíritu" 9
+"2" "formaciÃ³n" 13
+"3" "transmisiÃ³n" 11
+"4" "cultura" 10
+"5" "universidad" 10
+"6" "creaciÃ³n" 10
+"7" "pensamiento" 9
+"8" "sociedad" 9
+"9" "espÃ­ritu" 9
+"10" "conocimiento" 8

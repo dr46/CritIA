@@ -14,7 +14,7 @@ source("stx/02_at.R", encoding = "UTF-8")
 # Este archivo contiene una tabla que recoge los diez términos más frecuentes
 # que aparecen relacionados con el pensamiento crítico. Se obtiene a partir
 # del archivo de código 02_at.R anteriormente presentado.
-read.table("tbl/topw.txt")
+read.table("tbl/topw.txt", fileEncoding = "UTF-8")
 
 # Este archivo estima el coeficiente de correlación que se establece entre la 
 # posición en el ranking de universidades y el número de caracteres dedicados

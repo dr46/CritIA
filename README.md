@@ -2,8 +2,8 @@
 title: 'CritIA: La inteligencia artificial y su impacto sobre la reflexión crítica en educación superior'
 output:
   html_document: default
-  word_document: default
   pdf_document: default
+  word_document: default
 ---
 
 Este proyecto ha sido desarrollado en sincronía con el proyecto de la [OSF](https://osf.io) (Open Science Framework) alojado en la siguiente web: <https://osf.io/ca6yh> y tiene como objetivo proporcionar información y código fuente utilizado para el desarrollo del capítulo titulado "La inteligencia artificial y su impacto sobre la reflexión crítica en educación superior".
@@ -51,6 +51,10 @@ Este gráfico representa la posición que ocupan las universidades en el ranking
 ## wc.pdf
 
 Este gráfico representa la nube de términos que se relacionan con el pensamiento crítico teniendo en cuenta las misiones, visiones y los planes estratégicos de las universidades públicas españolas.
+
+## dotplot.pdf
+
+Este es un gráfico de puntos en el que se reflejan los 30 términos más frecuentes en los contextos en los que aparece el concepto de "pensamiento crítico".
 
 # Carpeta *tbl*
 

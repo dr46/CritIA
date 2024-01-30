@@ -19,15 +19,21 @@ text <- stri_replace_all(text, "", fixed =  ":")
 tkns <- tokens(text)
 tkns <- tokens_remove(tkns, stopwords::data_stopwords_stopwordsiso$es)
 
-tkns <- tokens_wordstem(tkns)
 dtm <- dfm(tkns)
 topfeatures(dtm, 10)
 
 topw <- as.table(topfeatures(dtm, 10))
-write.table(topw, "tbl/topw.txt")
+write.table(topw, "tbl/topw.txt", fileEncoding = "UTF-8")
 
 set.seed(45); textplot_wordcloud(dtm, random_order = FALSE,
                                  rotation = .25,
                                  colors = RColorBrewer::brewer.pal(8, "Dark2"))
+
+tkns2 <- tokens(text)
+tkns2 <- tokens_remove(tkns2, stopwords::data_stopwords_stopwordsiso$es)
+dtm2 <- dfm(tkns2)
+
+dotchart(topfeatures(dtm2, 30), pch = 21, bg=heat.colors(30), xlab = "Frecuencia", ylab = "Palabra")
+
 
 rm(list = ls())
