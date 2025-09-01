@@ -1,10 +1,5 @@
----
-title: 'CritIA: La inteligencia artificial y su impacto sobre la reflexión crítica en educación superior'
-output:
-  html_document: default
-  pdf_document: default
-  word_document: default
----
+'CritIA: La inteligencia artificial y su impacto sobre la reflexión crítica en educación superior'
+================
 
 Este proyecto ha sido desarrollado en sincronía con el proyecto de la [OSF](https://osf.io) (Open Science Framework) alojado en la siguiente web: <https://osf.io/ca6yh> y tiene como objetivo proporcionar información y código fuente utilizado para el desarrollo del capítulo titulado "La inteligencia artificial y su impacto sobre la reflexión crítica en educación superior".
 
